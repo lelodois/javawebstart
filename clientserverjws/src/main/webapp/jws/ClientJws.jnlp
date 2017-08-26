@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8080/client-server/jws/" href="ClientJws.jnlp">
+	<information>
+		<title>Jnlp Client download</title>
+		<vendor>Lelo example</vendor>
+		<homepage href="http://localhost:8080/client-server/jws/" />
+		<description>Jnlp Client</description>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se version="1.6+" />
+		<jar href="client-jws-1.0.jar" />
+	</resources>
+	<application-desc main-class="br.com.lelo.example.clientjws.ClientMain" />
+</jnlp>

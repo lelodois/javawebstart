@@ -1,0 +1,12 @@
+/target/
+/classes/
+.classpath
+MANIFEST.MF
+.project
+org.eclipse*
+.jsd*
+.project
+.settings
+.class
+*.class
+/classes/*
